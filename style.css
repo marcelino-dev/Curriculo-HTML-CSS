@@ -1,0 +1,164 @@
+body {
+  padding: 0px 5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  display: grid;
+  gap: 60px;
+  justify-items: center;
+  background-color: darkgray;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 43% 1fr;
+  height: 90vh;
+  width: 1200px;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  align-content: start;
+  padding: 4rem;
+  background-color: rgb(025, 049, 065);
+  color: white;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 4rem;
+  background-color: white;
+  color: rgb(034, 034, 034);
+  line-height: 1.6rem;
+}
+
+.informacoes {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.informacoes p {
+  line-height: 1.6rem;
+  font-size: 0.9rem;
+}
+
+.informacoes h3 {
+  font-size: 1.5rem;
+}
+
+.cargo h3 {
+  font-weight: 100;
+}
+
+.certificados {
+  margin-top: 3rem;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  flex-direction: column;
+}
+
+.certificado-titulo {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(041, 063, 078);
+  text-align: center;
+  justify-content: center;
+  padding: 5px;
+  gap: 10px;
+}
+
+.certificados h4 {
+  display: block;
+}
+
+.certificados div {
+  line-height: 1.4rem;
+}
+
+.right-side-titulo {
+  display: flex;
+  flex-direction: row;
+  background-color: #efefef;
+  text-align: center;
+  justify-content: center;
+  padding: 5px;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.right-side-titulo img {
+  width: 1.4rem;
+}
+
+.titulo-direita {
+  margin-bottom: 20px;
+}
+
+.experiencia-itens {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.experiencia-itens div :nth-child(1) {
+  font-weight: bold;
+}
+
+.esconlaridade p:nth-child(2) {
+  font-weight: bold;
+}
+
+.idioma-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.idioma-grafico {
+  display: flex;
+  gap: 5px;
+}
+
+.idioma-grafico span {
+  display: block;
+  background-color: lightgrey;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.idioma-grafico span:nth-child(-n + 4) {
+  display: block;
+  background-color: rgb(025, 049, 065);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
